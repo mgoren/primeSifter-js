@@ -35,13 +35,6 @@ fieldset[disabled] .btn-custom.active {
   border-color: #8180c4;
 }
 
-section + section {
-  clear: both;
-  padding: 15px 0;
-  /*border-top: 1px dashed #BFA6CC;*/
-  margin-top: 15px;
-}
-
 header {
   height: auto;
   border-bottom: 1px dashed #BFA6CC;
@@ -54,19 +47,15 @@ h1 {
   font-size: 48px;
 }
 
-h2 {
-  text-align: center;
-  font-size: 24px;
-}
-
-h3 {
-  font-size: 16px;
-}
-
 ul {
   list-style: none;
   margin: 0 0 1em 0;
   padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 5px;
 }
 
 .container {
@@ -75,10 +64,10 @@ ul {
   margin: 1em auto;
   padding: 15px;
   border: 3px solid gray;
-  border-radius: 45px;
+  border-radius: 15px;
 }
 
-input, .form-control {
+/*input, .form-control {
   appearance: none;
   font-family: inherit;
   font-size: inherit;
@@ -116,28 +105,16 @@ textarea:focus {
 .form-control {
   float: left;
   margin-right: 10px;
-}
+}*/
 
 
-.band-list {
-  display: inline;
-}
-
-.btn {
+/*.btn {
   display: inline;
   float: left;
   margin-top: 20px;
-}
+}*/
 
-.btn-remove {
-  background-color: transparent;
-  box-shadow: none;
-  border: none;
-  margin: 0 5px;
-  padding: 0;
-}
-
-a {
+/*a {
   border-color: #d0dad8;
   color: #432F75;
   -webkit-transition-duration: .1s;
@@ -164,22 +141,4 @@ a {
     a:active::before,
     a:focus::before {
       color: #0e745c;
-    }
-
-#delete_band {
-  border-top: 1px dashed #d0dad8;
-  margin-top: 50px;
-  margin-left: 330px;
-}
-
-.padding-bottom {
-  padding-bottom: 25px;
-}
-
-.input_change_band_name {
-  width: 640px;
-}
-
-.input_new_name {
-  width: 655px;
-}
+    }*/

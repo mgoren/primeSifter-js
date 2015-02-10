@@ -15,3 +15,18 @@ var primes = function(n) {
   }
   return allNumbers;
 };
+
+$(document).ready(function() {
+  $("form#primeForm").submit(function(event) {
+    var n = parseInt($("input#number").val());
+    var allPrimes = primes(n);
+    var htmlPrimes = "";
+    allPrimes.forEach(function(prime) {
+      htmlPrimes = htmlPrimes + "<li>" + prime + "</li>"
+    });
+
+    $("#results ul").html(htmlPrimes);
+
+    event.preventDefault();
+  });
+});
