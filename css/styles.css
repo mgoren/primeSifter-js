@@ -55,8 +55,11 @@ h1 {
 }
 
 #results li {
+  border: 1px solid black;
+  padding: 3px 6px;
+  margin: 3px;
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 10px;
   text-align: center;
 }
 
@@ -146,36 +149,36 @@ textarea:focus {
     }*/
 
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
-:root {
-  /*background: #94c6fd;*/
+/*:root {
+  background: #94c6fd;
   box-sizing: border-box;
   padding: 3em;
 }
 :root *, :root:before, :root:after {
   box-sizing: inherit;
   -webkit-font-smoothing: antialiased !important;
-}
-:root .container {
-  background: white;
+}*/
+.container {
+  background: #FFEACC;
   box-shadow: 0 2px 2px #4A2D74;
   color: #111;
-  max-width: 600px;
+  max-width: 500px;
   width: 100%;
-  margin: 0 auto;
+  margin: 3em auto;
   padding: 3em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   position: relative;
 }
-:root .container + .container {
+/*:root .container + .container {
   margin-top: 3em;
-}
+}*/
 
-form h2, form .fields {
+/*form h2, form .fields {
   margin: 0;
   padding: 0;
-}
+}*/
 
-:root {
+/*:root {
   box-sizing: border-box;
   color: #444;
   font-family: 'Droid Sans', Arial, sans-serif;
@@ -183,10 +186,10 @@ form h2, form .fields {
 :root *, :root *:before, :root *:after {
   box-sizing: inherit;
   font-family: inherit;
-}
+}*/
 
 form {
-  background: white;
+  background: #FFEACC;
   /*box-shadow: 0 2px 2px #499efc;*/
   margin: 0 auto;
   max-width: 400px;
