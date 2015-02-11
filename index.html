@@ -9,17 +9,16 @@
     <title>Prime Sifter</title>
   </head>
   <body>
-    <section class="header">
-      <h1>PRIMAL Fun</h1>
-    </section>
 
     <div class="container">
+
+      <h1>PRIMAL Fun</h1>
+
       <form id="primeForm">
-        <div class= "form-group">
-          <label class= "form-label" for="number">Enter A Number</label>
-          <input class="form-control" type="text" id="number" name="number" autofocus>
-        </div>
-        <button type="submit" class="btn btn-custom">Primify!!!</button>
+        <ul class="fields">
+          <li><input type="num" name="first_name" id="number" name="number" required /><label for="first_name">Number</label></li>
+        </ul>
+          <button class="button" type="submit" data-title="Primify!!!" id="number" name="number">Primify!!!</button>
       </form>
 
       <div id="results">
